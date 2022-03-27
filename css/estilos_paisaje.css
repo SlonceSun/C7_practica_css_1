@@ -1,0 +1,55 @@
+/*##############################################################################
+
+RESET DE CSS (elimino los margenes)
+
+##############################################################################*/
+
+*{
+    padding:0px;
+    margin: 0px; 
+}
+
+/*##############################################################################
+
+CSS HECHO CON SOLO ETIQUETAS
+
+##############################################################################*/
+
+
+nav{
+    text-align: right;
+}
+
+article{
+    text-align: center;
+    background-color: #DFDFDE;
+
+}
+
+header {
+    background-color: #8D8DAA;
+   
+
+}
+footer {
+    background-color: #8D8DAA;
+
+}
+
+main{
+    background-color: #DFDFDE;
+}
+
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    background-color: #F56D91;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.62);
+}
+
+div{
+    font-weight: bold;
+    font-size: small;
+
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ESTE HACE QUE LAS IMAGENES TENGAN UN MARCO DIFERENTE, CON LAS DIAGONALES SUP DER E INF IZQ RECORTADAS
+
+TIPO CLASS
+*/
+.imagenes__frame__especial1
+{
+    clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0 100%, 0% 20%);
+}
