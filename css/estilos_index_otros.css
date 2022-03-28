@@ -4,7 +4,65 @@
 }
 
 
+/*======================================================
+---------------------- USANDO ID
+======================================================*/
 
+#nav__header__footer{
+
+    text-align: right;
+    padding: 1%;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#text__form{
+    color: rgb(43, 35, 35);
+}
+
+#div__footer{
+
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+
+}
+
+/*======================================================
+---------------------- USANDO CLASS
+======================================================*/
+
+.header__backgr {
+    background-color: #8D8DAA; 
+}
+
+.h1__align__c{
+
+    text-align: center;
+    background-color: #F56D91;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.main__backgr {
+    background-color: #DFDFDE;
+}
+
+.form{
+    background-color: #DFDFDE;
+
+}
+
+.footer{
+    background-color: #8D8DAA; 
+}
+
+.form__padding__margin{
+    margin-left: 5%;
+    padding: 2px;
+
+}
 
 
 
