@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EL SITIO DE SOL</title>
-    <link rel="stylesheet" href="estilos_index_otros.css">
+    <link rel="stylesheet" href="css/estilos_index_otros.css">
     <link rel="icon" href="favicon.png">
 </head>
 
@@ -28,19 +28,19 @@ FORMA INTERNA:
 ***DONE***
 ✓ Paisajes
 ✓ Contactame
+✓ Musica
 
 ***DOING***
-+ Musica
++ Index
 
 ***PENDING***
 - Comidas
-- Index
 -->
 
 <body>
-    <header style="background-color: lightpink;"> 
+    <header class="header__backgr"> 
           
-        <nav align="right">
+        <nav id="nav__header__footer">
             
             <a href="#">Inicio</a>
             <a href="paisajes/paisajes.html">Paisajes y mascotas</a>
@@ -49,41 +49,48 @@ FORMA INTERNA:
             <a href="contactame/contactame.html">Contactame</a>
 
         </nav>
-        <a href="#"><img src="img/img_logo.png" alt="Volver al sitio de inicio" width="50" ></a>
     </header>
 
-    <main style="background-color: lightgrey;">
+    <main class="main__backgr">
         <section>
-            <h1 align="center">MI PRIMER SITIO EN HTML</h1>
+            <h1 class="h1__align__c">MI PRIMER SITIO EN HTML</h1>
+            <br>
             <p> &#9733; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi reprehenderit porro facere at. Omnis illo eligendi error, maxime delectus incidunt voluptatem repellendus ex placeat, aperiam accusantium ab. Magnam, laboriosam quidem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ullam est soluta quas hic atque, provident non nesciunt nobis placeat facilis culpa alias similique excepturi temporibus veritatis nam quibusdam optio. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit dolorum eligendi animi, assumenda cupiditate reiciendis molestiae ipsam, provident architecto, recusandae tempora. Delectus cum deserunt velit laborum quae reprehenderit corrupti consequatur.</p>
-            <article align="center">
+            
+            <aside class="aside__der">
+                <div class="div__aside__der">
+                <p> <br><br><br> Restaurante pepito, el mejor asado 
+                    <br> del mundo mundial &#128516; <br><br><br></p>
+                <br>
+                </div>
+           </aside>
+            <article align="center"> <!--NOTA: No encontre forma para ponerlo en CSS-->
                 <iframe src="https://giphy.com/embed/l0FF56cexcW2JAXCJj" width="100" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cute-hi-oh-l0FF56cexcW2JAXCJj"></a></p>
             </article>
+
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque fugiat voluptates enim rem dolorem libero, commodi sunt facilis ipsam. Eos soluta harum nesciunt adipisci repellendus? Non illo ratione dolorum iure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam id quae commodi odio aliquid, dolor quas voluptatibus sequi ullam quos, facere cupiditate totam accusamus temporibus qui similique tempore quasi fugiat!</p>
-            <h2>LO QUE PODRAS ENCONTRAR EN ESTE SITIO</h2>
+            <br><br>
+            <h2 class="h2__padd">LO QUE PODRAS ENCONTRAR EN ESTE SITIO</h2>
+            <br>
+            <div class="lista__ord">
             <ol>
                 <li>Paisajes y mascotas</li>
                 <li>Comidas</li>
-                    <ul type="square">
-                        <li>Imagenes</li>
-                        <li>Recetas</li>
-                    </ul>
+                <li>Imagenes</li>
+                <li>Recetas</li>
                 <li>Musica</li>
                 <br>   
 
             </ol>
+            </div>
         </section>
             
 
     </main>
-    <aside style="background-color:lightsteelblue;">
 
-        <p> <i>Restaurante pepito, el mejor asado del mundo mundial  </i> &#128516; </p>
-        <br>
-   </aside>
 
-    <footer style="background-color: lightpink;"> 
-        <nav align="right">
+    <footer class="footer"> 
+        <nav id="nav__header__footer">
             <a href="#">Inicio</a>
             <a href="paisajes/paisajes.html">Paisajes y mascotas</a>
             <a href="musica/musica.html">Música</a>
@@ -91,10 +98,12 @@ FORMA INTERNA:
             <a href="contactame/contactame.html">Contactame</a>
             
         </nav>
-        <p> 
-            <b>Todos los derechos reservados</b> 
-            <small> <i>Diseñado en 03.2022  </i> </small>
-        </p> 
+        <div id="div__footer">
+            <p> 
+            
+                &#9733; Diseñado por SIG en el año 2022. &#9733;
+            </p> 
+        </div> 
 
     </footer>
 

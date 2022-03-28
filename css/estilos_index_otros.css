@@ -64,20 +64,26 @@
 
 }
 
+.lista__ord{
+    margin-left: 2%;
 
+}
 
+.aside__der{
+    background-color:#8D8DAA; 
+    float:right;
+    font-style: italic;
+}
 
+.h2__padd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
 
-
-
-
-
-
-
-
-
-
-
+.div__aside__der{
+    margin-left: 2%;
+    margin-top: 5%; 
+    text-align: center;
+}
 
 /*
 ESTE HACE QUE LAS IMAGENES TENGAN UN MARCO DIFERENTE, CON LAS DIAGONALES SUP DER E INF IZQ RECORTADAS
