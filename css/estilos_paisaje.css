@@ -18,6 +18,9 @@ CSS HECHO CON SOLO ETIQUETAS
 
 nav{
     text-align: right;
+    padding: 1%;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 article{
@@ -45,7 +48,7 @@ h1{
     text-align: center;
     font-size: xx-large;
     background-color: #F56D91;
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.62);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 div{
