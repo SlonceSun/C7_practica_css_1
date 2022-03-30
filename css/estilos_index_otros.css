@@ -1,8 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 /*======================================================
 ---------------------- USANDO ID
@@ -45,6 +46,16 @@
 
 }
 
+.h3__align__c{
+
+    text-align: center;
+    padding: 1%;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.h4__style
+
+
 .main__backgr {
     background-color: #DFDFDE;
 }
@@ -64,9 +75,19 @@
 
 }
 
+.span__color{
+    color: #303033;
+    font-style: italic;
+
+}
+
 .lista__ord{
     margin-left: 2%;
 
+}
+
+.lista__desorg{
+    margin-left: 2%;
 }
 
 .aside__der{
